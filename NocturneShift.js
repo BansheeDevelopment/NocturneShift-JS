@@ -27,18 +27,18 @@ function removeDarkMode() {
 
 // Alternate Dark Mode
 function toggleDarkMode() {
-  var darkModeState = sessionStorage.getItem('dark');
+  var darkModeState = localStorage.getItem('dark');
   if (darkModeState === 'true') {
-      sessionStorage.setItem('dark', 'false');
+      localStorage.setItem('dark', 'false');
       removeDarkMode();
   } else {
-      sessionStorage.setItem('dark', 'true');
+      localStorage.setItem('dark', 'true');
       applyDarkMode();
   }
 }
 
 // Apply on load if sStorage val dark is true
-if (sessionStorage.getItem('dark') === 'true') {
+if (localStorage.getItem('dark') === 'true') {
   applyDarkMode();
 }
 
