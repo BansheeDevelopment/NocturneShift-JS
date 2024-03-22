@@ -1,3 +1,7 @@
+// NocturneShift.js
+// Copyright © 2024 Banshee
+// https://www.banshee.pro
+
 // Apply Nocturne Shift
 function applyDarkMode() {
   var style = document.createElement('style');
