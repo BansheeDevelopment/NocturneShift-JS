@@ -26,6 +26,6 @@ In the era of digital eye strain, offering a dark mode on your website is not ju
 
 To activate the dark mode feature with NocturneShift, you must assign the class `darkmode_object` to an element (or multiple elements) on your webpage, like so: `class="darkmode_object"`. This will serve as the trigger for enabling dark mode. Upon activation, NocturneShift applies a CSS filter invert(1) to the entire page, effectively switching the visual theme to dark mode. This choice is persistently stored using sessionStorage, ensuring that the user's preference for dark or light mode is retained throughout their browsing session.
 
-Furthermore, if there are specific elements on your page that you wish to exclude from the dark mode inversion effect, you can simply add the class `x-nocturne` to those elements, like this: `class="darkmode_object"`. This class signals NocturneShift to maintain the original color and styling of the element, thereby providing you with the flexibility to fine-tune the dark mode appearance on your website.
+Furthermore, if there are specific elements on your page that you wish to exclude from the dark mode inversion effect, you can simply add the class `x-nocturne` to those elements, like this: `class="x-nocturne"`. This class signals NocturneShift to maintain the original color and styling of the element, thereby providing you with the flexibility to fine-tune the dark mode appearance on your website.
 
 **Join the Night Shift with NocturneShift.**
